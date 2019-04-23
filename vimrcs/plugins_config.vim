@@ -28,8 +28,9 @@ map <leader>o :BufExplorer<cr>
 " => MRU plugin
 """"""""""""""""""""""""""""""
 let MRU_Max_Entries = 400
-map <leader>f :MRU<CR>
-
+map <leader>f :CtrlP<CR>
+map <leader>o :CtrlPBuffer<CR>
+map <leader>v :CtrlPMixed<CR>
 
 """"""""""""""""""""""""""""""
 " => YankStack
